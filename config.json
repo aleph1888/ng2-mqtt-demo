@@ -1,6 +1,6 @@
 {
-    "host": "broker.hivemq.com",
-    "port": 8000,
+    "host": "ws://test.mosquitto.org",
+    "port": 8080,
     "path": "mqtt",
     "ssl": false,
 
@@ -8,7 +8,7 @@
     "pass": "guest",
 
     "subscribe": [
-        "HAB0001/#"
+        "HUB1"
     ],
     "publish": [
         "Test"
